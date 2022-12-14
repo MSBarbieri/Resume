@@ -40,9 +40,10 @@ jobs:
           yaml-resume export data.yml -e html -o out/index
           # yaml-resume export data.yml -e pdf -o out/msbarbieri
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v1
         with:
-          path: ./out
+          name: github-pages
+          path: ./out/index.html
 
 # Deployment job
   deploy:

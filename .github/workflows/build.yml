@@ -38,11 +38,11 @@ jobs:
         run: |
           mkdir out
           yaml-resume export data.yml -e html -o out/index
-          yaml-resume export data.yml -e pdf -o out/msbarbieri
+          # yaml-resume export data.yml -e pdf -o out/msbarbieri
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./out/index.html
+          path: ./out
 
 # Deployment job
   deploy:

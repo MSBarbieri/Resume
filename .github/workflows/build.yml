@@ -39,10 +39,16 @@ jobs:
           mkdir out
           yaml-resume export data.yml -e html -o out/index
           yaml-resume export data.yml -e pdf -o out/msbarbieri
-      - name: Upload artifact
+      - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./out
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: pdf
+          path: ./out/msbarbieri.pdf
 
 # Deployment job
   deploy:
@@ -55,3 +61,36 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+      - name: Crease Release
+        id: create_release
+        uses: actions/crease-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{github.ref}}
+          release:name: Release ${{ github.ref }}
+          body: |
+            Pdf file
+          draft: true
+          prerelease: false
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: pdf
+      - name: Display structure of downloaded files
+        run: ls -R
+      - name: Upload release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: pdf
+          asset_name: msbarbieri.pdf 
+          asset_content_type: application/x-pdf
+      - name: Publish release
+        uses: StuYarrow/publish-release@v1.1.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          id: ${{ steps.create_release.outputs.id }}

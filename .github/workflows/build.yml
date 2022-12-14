@@ -39,8 +39,8 @@ jobs:
       - name: build pdf and html
         run: |
           mkdir out
-          yaml-resume export data.yml -e html -o out/msbarbieri
-          yaml-resume export data.yml -e pdf -o out/msbarbieri
+          yaml-resume export data.yml -e html -o ${{steps.pages.outputs.base_url}}/index
+          yaml-resume export data.yml -e pdf -o ${{steps.pages.outputs.base_url}}/msbarbieri
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -50,6 +50,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:

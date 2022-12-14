@@ -1,0 +1,92 @@
+
+contact:
+  name: Matheus de Souza Barbieri
+  email: matheussouzabarbieri@gmail.com 
+  date_of_birth: 16/01/1997
+  job: Software Engineer
+  location:
+    address: Desembargador Rodrigues Sette, 365
+    city: Sao Paulo
+    country: SP
+    zip: "02634070"
+  phone: '+55 11976709470'
+experiences:
+- company: Foo company
+  position: Senior Python Developer
+  start_date: January 2018
+  summary: |
+        Developer for the main Foo webapp
+        Worked on migration from python 2.7 to 3.6
+        Scrum master for the team of 8 people
+        Added automated unit tests
+  website: https://foo.com
+  tags:
+  - flask
+  - mongodb
+  - redis
+  - pytest
+  - scrum
+- company: Bar company
+  position: Python developer
+  start_date: January 2014
+  end_date: December 2017
+  summary: |
+        Made Bar backoffice main features
+        Worked on CI/CD
+  website: https://bar.net
+  tags:
+  - django
+  - mysql
+  - jenkins
+- company: Bar company
+  position: Junior python developer
+  start_date: January 2012
+  end_date: December 2013
+  website: https://bar.net
+  summary: |
+        Made multiple KPI dashboards
+        Provided automation scripts
+profiles:
+- network: Linkedin
+  url: https://Linkedin/in/matheus-barbieri
+- network: Personal website
+  url: https://msbarbieri.dev
+- network: Github
+  url: https://github.com/MSBarbieri
+- network: Twitch
+  url: https://twitch.tv/MSBarbieri
+education:
+- degree: Game Development
+  start_date: January 2016
+  end_date: Dezember 2017
+  institution: Fiap
+  website: https://www.fiap.com.br
+
+- degree: DevOps Engineering and integration architecture - MBA
+  start_date: July 2018
+  end_date: June 2019
+  institution: Fiap
+  website: https://www.fiap.com.br
+skills:
+- name: Python
+  level: 90
+- name: Flask
+  level: 80
+- name: Scrum
+  level: 80
+- name: Java
+  level: 50
+languages:
+- name: Portuguese
+  level: Native language
+- name: English
+  level: Proficient
+projects:
+- name: FlowBuild 
+  description: workflow runtime
+  url: https://github.com/flow-build/flowbuild
+- name: DL 
+  description: Distributed Language
+  url: https://github.com/MSBarbieri/DL
+hobbies:
+- name: Writing

@@ -24,8 +24,6 @@ jobs:
   build:
     name: Run
     runs-on: ubuntu-20.04
-       
-
     steps:
       - uses: actions/checkout@v3
       - name: Set up  Python 3.10
@@ -44,7 +42,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./out
+          name: gihhub-pages
+          path: ./out/index.html
 
 # Deployment job
   deploy:

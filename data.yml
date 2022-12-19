@@ -1,4 +1,3 @@
-
 contact:
   name: Matheus de Souza Barbieri
   email: matheussouzabarbieri@gmail.com 
@@ -11,71 +10,86 @@ contact:
     zip: "02634070"
   phone: '+55 11976709470'
 experiences:
-- company: Foo company
-  position: Senior Python Developer
-  start_date: January 2018
+- company: Freelancer
+  position: Sofware Engineer
+  start_date: August 2021
   summary: |
-        Developer for the main Foo webapp
-        Worked on migration from python 2.7 to 3.6
-        Scrum master for the team of 8 people
-        Added automated unit tests
-  website: https://foo.com
+    I maintain systems, fix bugs, add new features and integrate platforms. 
   tags:
-  - flask
-  - mongodb
-  - redis
-  - pytest
-  - scrum
-- company: Bar company
-  position: Python developer
-  start_date: January 2014
-  end_date: December 2017
+  - Flask
+  - Django
+  - node.js
+  - React
+  - Next.js
+  - Postgres
+  - Redis
+- company: FDTE 
+  position: Software Engineer 
+  start_date: May 2019 
+  end_date: August 2021
   summary: |
-        Made Bar backoffice main features
-        Worked on CI/CD
-  website: https://bar.net
+    Outsourced consultant for some clients and maintainer of FDTE's Open-Source platform, worked as a specialist in Node.js but used other languages such as Rust, C#, and Python.
+    I analyzed the IT client's ecosystem, improving their architecture, reconstructing their infra into a hybrid model, and working with their DevOps.
+  website: https://www.fdte.org.br
   tags:
-  - django
-  - mysql
-  - jenkins
-- company: Bar company
-  position: Junior python developer
-  start_date: January 2012
-  end_date: December 2013
-  website: https://bar.net
+  - .Net Core
+  - python
+  - Node.js
+  - MySQL
+  - Postgres
+  - AWS
+  - Kubernetes
+  - RabbitMQ
+  - Kafka
+  - Sqs
+- company: FieldLink
+  position: Software Enginneer
+  start_date: December 2018
+  end_date: May 2019
+  website: https://fieldlink.com
   summary: |
-        Made multiple KPI dashboards
-        Provided automation scripts
+    Worked as a mobile developer, building and maintaining applications for the company and its clients.
+    I took care of the infrastructure parts related to mobile systems.
+  tags:
+  - Xamarin
+  - SQLite
+  - App Center
+  - Python
+  - Django
+  - Postgres
 profiles:
+- network: Personal website
+  url: https://www.msbarbieri.dev
 - network: Linkedin
   url: https://Linkedin/in/matheus-barbieri
-- network: Personal website
-  url: https://msbarbieri.dev
 - network: Github
   url: https://github.com/MSBarbieri
 - network: Twitch
   url: https://twitch.tv/MSBarbieri
 education:
-- degree: Game Development
-  start_date: January 2016
-  end_date: Dezember 2017
-  institution: Fiap
-  website: https://www.fiap.com.br
-
 - degree: DevOps Engineering and integration architecture - MBA
   start_date: July 2018
   end_date: June 2019
   institution: Fiap
   website: https://www.fiap.com.br
+- degree: Game Development
+  start_date: January 2016
+  end_date: Dezember 2017
+  institution: Fiap
+  website: https://www.fiap.com.br
 skills:
-- name: Python
-  level: 90
-- name: Flask
+- name: Web Development
   level: 80
-- name: Scrum
-  level: 80
-- name: Java
+- name: Mobile Development
+  level: 70
+- name: Distributed Computing
+  level: 70
+- name: DevOps
+  level: 60
+- name: Graphics Computing
   level: 50
+- name: HPC | Simd | Cuda
+  level: 40
 languages:
 - name: Portuguese
   level: Native language
@@ -85,8 +99,5 @@ projects:
 - name: FlowBuild 
   description: workflow runtime
   url: https://github.com/flow-build/flowbuild
-- name: DL 
-  description: Distributed Language
-  url: https://github.com/MSBarbieri/DL
 hobbies:
 - name: Writing

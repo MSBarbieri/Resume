@@ -15,11 +15,8 @@ experiences:
   start_date: August 2021
   summary: |-
     As a full-stack developer and freelancer, I specialize in creating and maintaining custom CMSs using WordPress, Drupal, Hubspot, and other frameworks. Additionally, I have extensive experience in e-commerce development, including WooCommerce and Shopify, and have integrated various payment systems for different countries.
-
     My skills also include fixing and implementing multiple databases such as PostgreSQL, MySQL, and MSSQL. I have also worked on mobile app development using React Native, delivering custom solutions for clients.
-
     Furthermore, I am conducting research in the kernel/graphics development area, expanding my expertise in the field and keeping up with the latest trends.
-
   tags:
   - Node
   - React
@@ -45,11 +42,8 @@ experiences:
   end_date: August 2021
   summary: |-
     I was an outsourced consultant programmer for various client companies and a maintainer of FDTE's open-source platform, specializing in Node.js, Rust, C#, and Python. I helped clients improve their development environments by migrating to new systems such as Docker, Kubernetes, CI/CD pipelines, internal library/framework distributions, versioning, documentation formalization, and using different cloud providers such as AWS, GCP, and Azure. Allowing them to increase development velocity, reduce errors, and improve their software delivery processes.
-
     In addition to enhancing clients' development environments, also, I helped improve their visibility into their business operations by leveraging Agile and Kanban methodologies, along with automation techniques, to establish a cohesive and efficient work environment, fostering greater collaboration among cross-functional teams, resulting in faster issue resolution, optimized communication, and streamlined workflows. 
-
     My contributions led to more productive and profitable organizations, and I am proud to have played a key role in their success.
-
   website: https://www.fdte.org.br
   tags:
   - .Net Core

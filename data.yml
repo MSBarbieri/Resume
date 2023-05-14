@@ -8,28 +8,47 @@ contact:
     city: Sao Paulo
     country: SP
     zip: "02634070"
-  phone: '+55 11976709470'
 experiences:
 - company: Freelancer
-  position: Sofware Engineer
+  position: Software Engineer
   start_date: August 2021
-  summary: |
-    I maintain systems, fix bugs, add new features and integrate platforms. 
+  summary: |-
+    As a full-stack developer and freelancer, I specialize in creating and maintaining custom CMSs using WordPress, Drupal, Hubspot, and other frameworks. Additionally, I have extensive experience in e-commerce development, including WooCommerce and Shopify, and have integrated various payment systems for different countries.
+
+    My skills also include fixing and implementing multiple databases such as PostgreSQL, MySQL, and MSSQL. I have also worked on mobile app development using React Native, delivering custom solutions for clients.
+
+    Furthermore, I am conducting research in the kernel/graphics development area, expanding my expertise in the field and keeping up with the latest trends.
+
   tags:
-  - Flask
-  - Django
-  - node.js
+  - Node
   - React
   - Next.js
+  - Vue
+  - Rust
   - Postgres
   - Redis
+  - Kubernetes
+  - Kafka
+  - Wordpress
+  - Drupal
+  - Hubspot
+  - WooCommerce
+  - Shopify
+  - React Native
+  - MSSQL
+  - MySQL
+  - PostgreSQL
 - company: FDTE 
   position: Software Engineer 
   start_date: May 2019 
   end_date: August 2021
-  summary: |
-    Outsourced consultant for some clients and maintainer of FDTE's Open-Source platform, worked as a specialist in Node.js but used other languages such as Rust, C#, and Python.
-    I analyzed the IT client's ecosystem, improving their architecture, reconstructing their infra into a hybrid model, and working with their DevOps.
+  summary: |-
+    I was an outsourced consultant programmer for various client companies and a maintainer of FDTE's open-source platform, specializing in Node.js, Rust, C#, and Python. I helped clients improve their development environments by migrating to new systems such as Docker, Kubernetes, CI/CD pipelines, internal library/framework distributions, versioning, documentation formalization, and using different cloud providers such as AWS, GCP, and Azure. Allowing them to increase development velocity, reduce errors, and improve their software delivery processes.
+
+    In addition to enhancing clients' development environments, also, I helped improve their visibility into their business operations by leveraging Agile and Kanban methodologies, along with automation techniques, to establish a cohesive and efficient work environment, fostering greater collaboration among cross-functional teams, resulting in faster issue resolution, optimized communication, and streamlined workflows. 
+
+    My contributions led to more productive and profitable organizations, and I am proud to have played a key role in their success.
+
   website: https://www.fdte.org.br
   tags:
   - .Net Core
@@ -48,8 +67,9 @@ experiences:
   end_date: May 2019
   website: https://fieldlink.com
   summary: |
-    Worked as a mobile developer, building and maintaining applications for the company and its clients.
-    I took care of the infrastructure parts related to mobile systems.
+    One of my contributions at FieldLink was working on the company's runtime/library for low code development. This library made it easy to create custom forms for multiple roles of employees, which could be used across multiple locations simultaneously, even in an offline-first approach.
+    I also implemented testing and tracing, as well as their automation, for the mobile applications, significantly improved the development process, and ensured that the applications were high quality.
+    My experience at FieldLink has honed my mobile development and infrastructure skills. While also fostering a passion for open-source software and community engagement. I am excited to bring these skills and experiences to my next role as a Software Engineer.
   tags:
   - Xamarin
   - SQLite
@@ -57,6 +77,7 @@ experiences:
   - Python
   - Django
   - Postgres
+  - Mqtt
 profiles:
 - network: Personal website
   url: https://www.msbarbieri.dev
@@ -64,8 +85,6 @@ profiles:
   url: https://Linkedin/in/matheus-barbieri
 - network: Github
   url: https://github.com/MSBarbieri
-- network: Twitch
-  url: https://twitch.tv/MSBarbieri
 education:
 - degree: DevOps Engineering and integration architecture - MBA
   start_date: July 2018
@@ -78,18 +97,12 @@ education:
   institution: Fiap
   website: https://www.fiap.com.br
 skills:
-- name: Web Development
-  level: 80
-- name: Mobile Development
-  level: 70
 - name: Distributed Computing
   level: 70
 - name: DevOps
-  level: 60
+  level: 80
 - name: Graphics Computing
-  level: 50
-- name: HPC | Simd | Cuda
-  level: 40
+  level: 60
 languages:
 - name: Portuguese
   level: Native language
@@ -100,4 +113,5 @@ projects:
   description: workflow runtime
   url: https://github.com/flow-build/flowbuild
 hobbies:
-- name: Writing
+- name: Writer
+- name: Runner
